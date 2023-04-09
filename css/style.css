@@ -1,0 +1,70 @@
+h2{
+	color: red;
+}
+.myDiv{
+	color: green;
+}
+input[type=checkbox]{
+	accent-color: red;
+}
+input[type=range]{
+	accent-color: green;
+}
+#main{
+	width: 220px;
+	height: 300px;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+}
+#main div{
+	flex: 1;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+}
+#main .myDiv1 {
+	background-color: coral;
+	min-height: 30px;
+}
+#main .myDiv2 {
+	min-height: 50px;
+	background-color: lightblue;
+}
+#main .myDiv3 {
+	min-height: 170px;
+	background-color: pink;
+}
+div img{
+	width: 300;
+	height: 300;
+	position: relative;
+	animation: mymove 5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 2;
+	animation-timing-function: lin;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 400px;}
+}
+.myDiv4{
+	background-color: peachpuff;
+	width: 100px;
+	aspect-ratio: 3/2;
+}
+div.background {
+  background: lightblue url("images/img.jpg") no-repeat center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+}
+body {
+  background-image: "images/flower.jpg";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
